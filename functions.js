@@ -34,5 +34,18 @@
 // }
 // const suma = (num1, num2) => num1 +num2;
 
-const suma = (num1, num2)
-console.log(suma(2,3));
+//Al encontrar un return deja de ejecutarse
+// const suma = (num1, num2) => {
+//     if(num1 == 2){
+//         return num1 + num2
+//     }
+//     console.log('Esto no se va a ejecutar si entra en el if')
+//     return num1;
+// }
+// console.log(suma(2,3));
+
+//También podemos guardar el resultado en una variable
+// let result = suma(3,6);
+
+
+
