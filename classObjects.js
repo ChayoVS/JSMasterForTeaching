@@ -78,4 +78,4 @@ const showGender = () => {
 
 //showAllBooks()
 //showAuthors()
-// showGender()
+showGender()
