@@ -1,6 +1,6 @@
 // Eventos
 
-// Un evento es cualquiero cosa que sucede en nuestro documento.
+// Un evento es cualquiero cosa que sucede en nuestro documento. Por ejemplo
 // -El contenido se ha leído
 // -El contenido se ha cargado
 // -El usuario mueve el ratón, pulsa una tecla, cierra ventana, etc.
