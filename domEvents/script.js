@@ -11,7 +11,7 @@
 
 const button = document.getElementById('button')
 const box = document.getElementById('box')
-
+const input = document.getElementById('input')
 
 // button.addEventListener('click', () => {
 //     console.log('CLICK')
@@ -40,4 +40,30 @@ const box = document.getElementById('box')
 
 
 
+// Se usa para mover un elemento con el mouse
+// box.addEventListener('mousedown', () => {
+//     console.log('Has pulsado en la caja')
+// })
+
+// box.addEventListener('mouseup', () => {
+//     console.log('Has soltado el botón izquerdo en la caja')
+// })
+
+
+// box.addEventListener('mousemove', () => {
+//     console.log('Estás moviendo el ratón en la caja')
+// })
+
+
+// input.addEventListener('keydown', () => {
+//     console.log('has pulsado una tecla')
+// })
+
+// input.addEventListener('keyup', () => {
+//     console.log('has soltado una tecla')
+// })
+
+// input.addEventListener('keypress', () => {
+//     console.log('estás pulsando una tecla')
+// })
 
