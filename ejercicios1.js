@@ -182,3 +182,12 @@
 // }else{
 //     console.log('Tu color no está definido');
 // }
+
+
+// ejercicios hackerrank
+// function solve (meal_cost, tip_percent, tax_percent) {
+//     const tipPercent = (meal_cost*tip_percent)/100
+//     const taxPercent = (meal_cost*tax_percent)/100
+//     return Math.round(tipPercent + taxPercent + meal_cost);
+// }
+// console.log(solve(15.50, 15, 10));

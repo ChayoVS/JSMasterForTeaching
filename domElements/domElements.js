@@ -5,19 +5,24 @@ document | element .querySelectorAll('selectorCSS') - Accede a todos los element
 */
 
 /* const title = document.getElementById('title')
+Modificar contenido de forma dinámica
 title.textContent = 'DOM - Accediendo a nodos' */
 
 /* const paragraph = document.querySelector('.paragraph')
+descender desde el padre hasta el elemento al que queremos acceder
 const span = document.getElementById('title').querySelector("span") */
 
 const paragraphs = document.querySelectorAll('.paragraph')
+console.log(paragraphs)
 
+//esta convención aún da problemas en varios navegadores
 //const paragraphsSpread = [...document.querySelectorAll('.paragraph')]
-
+//mejor usar esta
 const paragraphsArray = Array.from(document.querySelectorAll('.paragraph'))
 
 paragraphs[0].style.color = 'red'
 
+//un node list no es un array, así que esto no sirve
 //paragraphs.map(p => p.style.color = 'green')
 
 //paragraphsSpread.map(p => p.style.color = 'green')
