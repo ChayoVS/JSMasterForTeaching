@@ -48,7 +48,7 @@ const emails = [
 
 const getUser = (id, cb) => {
     const user = users.find(user => user.id == id)
-    if(!user) cb(`Not exist a user with id ${id}`)
+    if(!user) cb(`Doesn't exist a user with id ${id}`)
     else cb(null, user)
 }
 
