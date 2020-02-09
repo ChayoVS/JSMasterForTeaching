@@ -86,7 +86,7 @@ const getEmail = async (user) =>{
         })
 }
 
-const getInfo= async () => {
+const getInfo= async (id) => {
     try{
     const user = await getUser(id)
     const res = await getEmail(user)
