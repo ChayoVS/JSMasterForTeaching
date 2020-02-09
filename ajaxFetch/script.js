@@ -40,8 +40,8 @@ button.addEventListener('click', () => {
         for(const userInfo of res){
             const listItem = document.createElement('li')
             listItem.textContent = `${userInfo.id} - ${userInfo.name}`
-            list.appendChild(listItem)
+            fragment.appendChild(listItem)
         }
-        list.appendChild(listItem)
+        list.appendChild(fragment)
     }) 
 })
