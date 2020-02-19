@@ -16,9 +16,9 @@
 // contador debe ser manipulado por mi 
 
 
-const matrix = [[1, 2, 3],
-                [4, 5, 6],
-                [7, 8, 9]]
+// const matrix = [[1, 2, 3],
+//                 [4, 5, 6],
+//                 [7, 8, 9]]
 
 // console.log(matrix [2] [0])
 
@@ -54,4 +54,30 @@ const matrix = [[1, 2, 3],
 //     return +arrayToNumber 
 // }
 // console.log(squareDigits(9119))
+
+
+// let summation = (num) => {
+//     let sum = 0
+//     for(let i = 0; i<=num; i++){
+//         sum += i
+//     }
+//     return sum
+// }
+// console.log(summation(8))
+
+
+// const validatePIN = (pin) =>  {
+//     return /^(\d{4}|\d{6})$/.test(pin)
+//    }
+// console.log(validatePIN(a78059))
+
+
+let numberByNumber = n => {
+    let cont = 0;
+    for(let i = 1; i<=n; i++){
+        cont += i  
+    }
+    return cont
+}
+console.log(numberByNumber(6))
 
