@@ -70,19 +70,57 @@
 // 6. Búsqueda de un valor introducido por el usuario, encuentra y el índice.
 
 // let numbers = new Array(6)
-let numbers = []
-for(let i = 0; i<= 5; i++){
-    // numbers[i]= parseInt(prompt('Introduce un número', 0))
-    numbers.push(parseInt(prompt('Introduce un número', 0)))
-}
-//Mostrar el array por consola
-console.log(numbers)
+// let showArr = (elements, customText='') => {
+//     document.write(`<h1> Contenido del array ${customText} </h1>`)
+//     numbers.forEach((elements, index) => {
+//         document.write(`<strong> ${elements} </strong><br/>`)
+//     })    
+// }
 
-// Mostrar en la página
-document.write(`<h1> Contenido del array</h1>`)
-numbers.forEach((number, index) => {
-    document.write(`<strong> ${number} </strong><br/>`)
-})
+// let numbers = []
+// for(let i = 0; i<= 5; i++){
+//     // numbers[i]= parseInt(prompt('Introduce un número', 0))
+//     numbers.push(parseInt(prompt('Introduce un número', 0)))
+// }
 
-//ordenar 
-numbers.sort()
+// showArr(numbers);
+// //Mostrar el array por consola
+// console.log(numbers)
+
+
+// //ordenar 
+// numbers.sort((a, b) => {
+//    return a-b
+// })
+// showArr(numbers, 'ordenado')
+
+// //Invertir y mostrar 
+// numbers.reverse()
+// showArr(numbers, 'invertido')
+
+// // 
+// document.write(`<h1>El array tiene ${numbers.length} elementos</h1>`)
+
+// // búsqueda
+
+// const search = parseInt(prompt('Busca un número', 0 ))
+// let position = numbers.findIndex(number => number === search)
+// if(position && position != -1){
+//     document.write(`<h1>Encontrado</h1>`)
+//     document.write(`<h1>Posición de la búsqueda: ${position}</h1>`)
+// }else{
+//     document.write(`<h1>No encontrado</h1>`)
+// }
+
+//Agregando colección de números a un array 
+// const arr = (number) => {
+//     let newArr = []
+//     for(let i = 0; i<number; i++){
+//         newArr.push(i)
+//     }
+//     return newArr
+// }
+
+// console.log(arr(5))
+
+
