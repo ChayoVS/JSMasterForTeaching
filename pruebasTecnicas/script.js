@@ -50,3 +50,55 @@
 
 // console.log(twoOldestAges([34, 17, 28, 6, 64]))
 
+
+// const findAll = (arr, n) => {
+//     return arr.filter(i => n === i)
+// }
+// console.log(findAll([6, 9, 3, 4, 3, 82, 11, 3], 3))
+
+
+// const findAll = (array, n) => {
+//     const result = [];
+//     array.forEach((value, index) => {
+//       if(value === n){
+//         result.push(index)
+//       }
+//     })
+//     return result 
+// }
+// console.log(findAll([6, 9, 3, 4, 3, 82, 11, 3], 3))
+
+//Mi solución
+// const strCount = (str, letter) => {  
+//     let count = 0;   
+//     for (let i = 0; i < str.length; i++) {
+//       if (str[i] === letter)
+//         count++;
+//     }  
+//     return count;  
+//   }
+
+//solución corta 
+// const strCount = (string, letter) => string.split(letter).length - 1
+
+
+
+// const arrayPlusArray = (arr1, arr2) => {
+//     let newArr = [...arr1, ...arr2]
+//     return newArr.reduce((a, b) => a+b)
+// }
+
+// console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]))
+
+
+
+// Promedios de una clase
+
+const alumnos = [[5, 8, 6], [2, 5, 7], [8, 9, 10]];
+
+const promedios = alumnos.map((alumno) => {
+    let suma = alumno.reduce((a, b) => a+b);
+    return suma/alumnos.length;
+})
+
+console.log(promedios)
